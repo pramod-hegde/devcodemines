@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Services.Integration.Sql
+build_property.ProjectDir = C:\work\Github contributions\devcodemines\src\libraries\Services.Operations.Core\Services.Integration.Sql\

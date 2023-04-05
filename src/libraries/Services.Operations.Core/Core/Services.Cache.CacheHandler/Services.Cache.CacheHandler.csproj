@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Pramod Hegde</Authors>
+    <Product>$(AssemblyName)</Product>    
+    <Configurations>Debug;Release;PREVIEW</Configurations>    
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MemoryCache\**" />
+    <EmbeddedResource Remove="MemoryCache\**" />
+    <None Remove="MemoryCache\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Services.Core.Common\Services.Core.Common.csproj" />
+    
+    <ProjectReference Include="..\Services.Core.Composition\Services.Core.Composition.csproj" />
+    
+    <ProjectReference Include="..\Services.Core.Contracts\Services.Core.Contracts.csproj" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CacheResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CacheResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CacheResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CacheResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Authors>Pramod Hegde</Authors>
+	  <Product>$(AssemblyName)</Product>
+	  <Configurations>Debug;Release;PREVIEW</Configurations>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Authors>Pramod Hegde</Authors>
+	  <Product>$(AssemblyName)</Product>
+	  <Configurations>Debug;Release;PREVIEW</Configurations>	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationInsights\**" />
+    <EmbeddedResource Remove="ApplicationInsights\**" />
+    <None Remove="ApplicationInsights\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Agent.Intercept" Version="2.4.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DiagnosticSourceListener" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.EventSourceListener" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.PerfCounterCollector" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.SnapshotCollector" Version="1.4.3" />
+    <PackageReference Include="Microsoft.ApplicationInsights.TraceListener" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.21.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Core.Contracts\Services.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

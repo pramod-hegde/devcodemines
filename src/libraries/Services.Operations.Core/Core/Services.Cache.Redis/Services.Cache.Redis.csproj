@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Authors>Pramod Hegde</Authors>
+	  <Product>$(AssemblyName)</Product>
+	  <Configurations>Debug;Release;PREVIEW</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.90" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+    <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Cache.Contracts\Services.Cache.Contracts.csproj" />
+    <ProjectReference Include="..\Services.Core.Common\Services.Core.Common.csproj" />
+    <ProjectReference Include="..\Services.Core.Contracts\Services.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

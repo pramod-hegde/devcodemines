@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Authors>Pramod Hegde</Authors>
+	  <Product>$(AssemblyName)</Product>
+	  <Configurations>Debug;Release;PREVIEW</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.28.0" />
+    <PackageReference Include="Azure.Identity" Version="1.8.2" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Core.Common\Services.Core.Common.csproj" />
+    <ProjectReference Include="..\Services.Core.Composition\Services.Core.Composition.csproj" />
+    <ProjectReference Include="..\Services.Data.Common\Services.Data.Common.csproj" />
+  </ItemGroup>
+
+</Project>
