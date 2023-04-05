@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "X+bxoLUxVJYqLBr8QeeJ9lyTCLbCTPbZ2JE673VCW5m36ZGDLCXBbH7frm+E9CRI0lqpXKQt4g9a68VLLLHPyw==",
+  "success": true,
+  "projectFilePath": "C:\\work\\Github contributions\\devcodemines\\src\\libraries\\Services.Operations.Core\\Core\\Services.Core.FaultHandling\\Services.Core.FaultHandling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prhegde\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\system.componentmodel.composition.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

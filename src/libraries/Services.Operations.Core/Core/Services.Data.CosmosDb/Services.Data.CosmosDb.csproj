@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Authors>Pramod Hegde</Authors>
+	  <Product>$(AssemblyName)</Product>
+	  <Configurations>Debug;Release;PREVIEW</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Azure.Identity" Version="1.8.2" />
+	  <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.32.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Core.Composition\Services.Core.Composition.csproj" />
+    <ProjectReference Include="..\Services.Core.Contracts\Services.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Services.Data.Common\Services.Data.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BxZU0S7fsVV+taKXIJkv0cGGifKNImIp3bgPHkulPLWspFiG7v2eohWYCfPWO1PWv2MINAZg5F+6V6yv+bTw+A==",
+  "success": true,
+  "projectFilePath": "C:\\work\\Github contributions\\devcodemines\\src\\libraries\\Services.Operations.Core\\Core\\Services.Cache.Memory\\Services.Cache.Memory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prhegde\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\system.componentmodel.composition\\5.0.0\\system.componentmodel.composition.5.0.0.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\system.runtime.caching\\4.5.0\\system.runtime.caching.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

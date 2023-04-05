@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Services.Data.AzureServiceBus.Shared
+build_property.ProjectDir = C:\work\Github contributions\devcodemines\src\libraries\Services.Operations.Core\Core\Services.Data.AzureServiceBus.Shared\

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j9LaTdeQDMBX9Gb8HoEyGuH15Uhw/IK3W/XVYQwT4rF2jTEobhRTgpZcH2N0pxQr+VP0drG5Yd/lk+Q2qABtUg==",
+  "success": true,
+  "projectFilePath": "C:\\work\\Github contributions\\devcodemines\\src\\libraries\\Services.Operations.Core\\Services.Integration.Core\\Services.Integration.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prhegde\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\prhegde\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

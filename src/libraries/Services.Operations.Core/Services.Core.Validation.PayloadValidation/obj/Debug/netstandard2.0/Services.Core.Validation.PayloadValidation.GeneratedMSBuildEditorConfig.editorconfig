@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Services.Core.Validation.PayloadValidation
+build_property.ProjectDir = C:\work\Github contributions\devcodemines\src\libraries\Services.Operations.Core\Services.Core.Validation.PayloadValidation\
